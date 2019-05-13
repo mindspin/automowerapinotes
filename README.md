@@ -1,5 +1,4 @@
 # Automower API Notes
-----
 	
 Simple notes from poking around the Automower API as of 5/1/2019. A good portion of the endpoints and how to authenticate were found [here](https://github.com/chrisz/pyhusmow). There could be more undiscovered endpoints as well.
 
@@ -16,7 +15,6 @@ Token data can be retried from the `token` endpoint.
 
 <br/><br/>
 ## token
-----
   Uses the authentiation URL
 
 * **URL**
@@ -84,7 +82,6 @@ Token data can be retried from the `token` endpoint.
 	```
 <br/><br/>
 ## mowers
-----
   Uses the API URL
 
 * **URL**
@@ -138,7 +135,6 @@ Token data can be retried from the `token` endpoint.
 	```
 <br/><br/>
 ## status
-----
   Uses the API URL
 
 * **URL**
@@ -192,7 +188,6 @@ Token data can be retried from the `token` endpoint.
 	```
 <br/><br/>	
 ## geofence
-----
   Uses the API URL
 
 * **URL**
@@ -246,7 +241,6 @@ Token data can be retried from the `token` endpoint.
 	```
 <br/><br/>
 ## control
-----
   Uses the API URL
 
 * **URL**
@@ -297,7 +291,6 @@ Token data can be retried from the `token` endpoint.
 	```
 <br/><br/>	
 ## settings
-----
   Uses the API URL. I've not tried POSTing to this endpoint, but I assume it's possible to update settings using a different method like POST or PATCH.
 
 * **URL**
